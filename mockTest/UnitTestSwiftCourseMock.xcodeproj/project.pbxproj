@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		305C6C6C75A26D7F901D14F0 /* Pods_UnitTestSwiftCourseMockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16144CDBE7FAEE87E1EC258C /* Pods_UnitTestSwiftCourseMockTests.framework */; };
+		3CC84A16ECE7996FEF695DE9 /* Pods_UnitTestSwiftCourseMock_UnitTestSwiftCourseMockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5E418EFE39539CB1DF989ED /* Pods_UnitTestSwiftCourseMock_UnitTestSwiftCourseMockUITests.framework */; };
+		6E70274EB7FEE86EBD9B30EA /* UnitTestSwiftCourseMockTests-UnitTestSwiftCourseMockMocks.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A075B53EBD3869E30DF13CB /* UnitTestSwiftCourseMockTests-UnitTestSwiftCourseMockMocks.generated.swift */; };
+		D0F91E9193696ED57DAEB958 /* Pods_UnitTestSwiftCourseMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D18D18FF5B6D186127211EAD /* Pods_UnitTestSwiftCourseMock.framework */; };
+		D726034F2B15208B0018CE93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D726034E2B15208B0018CE93 /* AppDelegate.swift */; };
+		D72603512B15208B0018CE93 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72603502B15208B0018CE93 /* SceneDelegate.swift */; };
+		D72603532B15208B0018CE93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72603522B15208B0018CE93 /* ViewController.swift */; };
+		D72603562B15208B0018CE93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72603542B15208B0018CE93 /* Main.storyboard */; };
+		D72603582B15208E0018CE93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72603572B15208E0018CE93 /* Assets.xcassets */; };
+		D726035B2B15208E0018CE93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72603592B15208E0018CE93 /* LaunchScreen.storyboard */; };
+		D72603662B15208F0018CE93 /* UnitTestSwiftCourseMockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72603652B15208F0018CE93 /* UnitTestSwiftCourseMockTests.swift */; };
+		D72603702B15208F0018CE93 /* UnitTestSwiftCourseMockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D726036F2B15208F0018CE93 /* UnitTestSwiftCourseMockUITests.swift */; };
+		D72603722B15208F0018CE93 /* UnitTestSwiftCourseMockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72603712B15208F0018CE93 /* UnitTestSwiftCourseMockUITestsLaunchTests.swift */; };
+		D72603802B1520AB0018CE93 /* ValidNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D726037F2B1520AB0018CE93 /* ValidNumber.swift */; };
+		D72603832B1521300018CE93 /* ValidNumberTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72603822B1521300018CE93 /* ValidNumberTest.swift */; };
+		D72603852B1524980018CE93 /* Add.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72603842B1524980018CE93 /* Add.swift */; };
+		D72603872B1529B30018CE93 /* AddTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72603862B1529B30018CE93 /* AddTest.swift */; };
+		D7CCCDD02B1650A8003033D9 /* Print.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CCCDCF2B1650A8003033D9 /* Print.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D72603622B15208F0018CE93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D72603432B15208A0018CE93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D726034A2B15208B0018CE93;
+			remoteInfo = UnitTestSwiftCourseMock;
+		};
+		D726036C2B15208F0018CE93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D72603432B15208A0018CE93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D726034A2B15208B0018CE93;
+			remoteInfo = UnitTestSwiftCourseMock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16144CDBE7FAEE87E1EC258C /* Pods_UnitTestSwiftCourseMockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTestSwiftCourseMockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BFB2C8748F17E851C0B446C /* Pods-UnitTestSwiftCourseMock-UnitTestSwiftCourseMockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestSwiftCourseMock-UnitTestSwiftCourseMockUITests.debug.xcconfig"; path = "Target Support Files/Pods-UnitTestSwiftCourseMock-UnitTestSwiftCourseMockUITests/Pods-UnitTestSwiftCourseMock-UnitTestSwiftCourseMockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E4B47C429327B18466F23C5 /* Pods-UnitTestSwiftCourseMockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestSwiftCourseMockTests.debug.xcconfig"; path = "Target Support Files/Pods-UnitTestSwiftCourseMockTests/Pods-UnitTestSwiftCourseMockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		791E57D9197E0CFB021D0007 /* Pods-UnitTestSwiftCourseMock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestSwiftCourseMock.release.xcconfig"; path = "Target Support Files/Pods-UnitTestSwiftCourseMock/Pods-UnitTestSwiftCourseMock.release.xcconfig"; sourceTree = "<group>"; };
+		8A075B53EBD3869E30DF13CB /* UnitTestSwiftCourseMockTests-UnitTestSwiftCourseMockMocks.generated.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = "UnitTestSwiftCourseMockTests-UnitTestSwiftCourseMockMocks.generated.swift"; path = "MockingbirdMocks/UnitTestSwiftCourseMockTests-UnitTestSwiftCourseMockMocks.generated.swift"; sourceTree = "<group>"; };
+		B5E418EFE39539CB1DF989ED /* Pods_UnitTestSwiftCourseMock_UnitTestSwiftCourseMockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTestSwiftCourseMock_UnitTestSwiftCourseMockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D18D18FF5B6D186127211EAD /* Pods_UnitTestSwiftCourseMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTestSwiftCourseMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D726034B2B15208B0018CE93 /* UnitTestSwiftCourseMock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTestSwiftCourseMock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D726034E2B15208B0018CE93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D72603502B15208B0018CE93 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D72603522B15208B0018CE93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D72603552B15208B0018CE93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D72603572B15208E0018CE93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D726035A2B15208E0018CE93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D726035C2B15208E0018CE93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72603612B15208F0018CE93 /* UnitTestSwiftCourseMockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestSwiftCourseMockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72603652B15208F0018CE93 /* UnitTestSwiftCourseMockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSwiftCourseMockTests.swift; sourceTree = "<group>"; };
+		D726036B2B15208F0018CE93 /* UnitTestSwiftCourseMockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTestSwiftCourseMockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D726036F2B15208F0018CE93 /* UnitTestSwiftCourseMockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSwiftCourseMockUITests.swift; sourceTree = "<group>"; };
+		D72603712B15208F0018CE93 /* UnitTestSwiftCourseMockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitTestSwiftCourseMockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D726037F2B1520AB0018CE93 /* ValidNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidNumber.swift; sourceTree = "<group>"; };
+		D72603822B1521300018CE93 /* ValidNumberTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidNumberTest.swift; sourceTree = "<group>"; };
+		D72603842B1524980018CE93 /* Add.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add.swift; sourceTree = "<group>"; };
+		D72603862B1529B30018CE93 /* AddTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTest.swift; sourceTree = "<group>"; };
+		D7CCCDCF2B1650A8003033D9 /* Print.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Print.swift; sourceTree = "<group>"; };
+		DABB266266D566C49653C0F7 /* Pods-UnitTestSwiftCourseMock-UnitTestSwiftCourseMockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestSwiftCourseMock-UnitTestSwiftCourseMockUITests.release.xcconfig"; path = "Target Support Files/Pods-UnitTestSwiftCourseMock-UnitTestSwiftCourseMockUITests/Pods-UnitTestSwiftCourseMock-UnitTestSwiftCourseMockUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E4EFC4509D63CCA4F4BE8FD8 /* Pods-UnitTestSwiftCourseMock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestSwiftCourseMock.debug.xcconfig"; path = "Target Support Files/Pods-UnitTestSwiftCourseMock/Pods-UnitTestSwiftCourseMock.debug.xcconfig"; sourceTree = "<group>"; };
+		FDF1800681FA679A007EA6E4 /* Pods-UnitTestSwiftCourseMockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnitTestSwiftCourseMockTests.release.xcconfig"; path = "Target Support Files/Pods-UnitTestSwiftCourseMockTests/Pods-UnitTestSwiftCourseMockTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D72603482B15208B0018CE93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0F91E9193696ED57DAEB958 /* Pods_UnitTestSwiftCourseMock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D726035E2B15208F0018CE93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				305C6C6C75A26D7F901D14F0 /* Pods_UnitTestSwiftCourseMockTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72603682B15208F0018CE93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CC84A16ECE7996FEF695DE9 /* Pods_UnitTestSwiftCourseMock_UnitTestSwiftCourseMockUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		026795145F1CF9B2B0F744BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E4EFC4509D63CCA4F4BE8FD8 /* Pods-UnitTestSwiftCourseMock.debug.xcconfig */,
+				791E57D9197E0CFB021D0007 /* Pods-UnitTestSwiftCourseMock.release.xcconfig */,
+				2BFB2C8748F17E851C0B446C /* Pods-UnitTestSwiftCourseMock-UnitTestSwiftCourseMockUITests.debug.xcconfig */,
+				DABB266266D566C49653C0F7 /* Pods-UnitTestSwiftCourseMock-UnitTestSwiftCourseMockUITests.release.xcconfig */,
+				4E4B47C429327B18466F23C5 /* Pods-UnitTestSwiftCourseMockTests.debug.xcconfig */,
+				FDF1800681FA679A007EA6E4 /* Pods-UnitTestSwiftCourseMockTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1C615EE26012C0AC7B04DBAF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D18D18FF5B6D186127211EAD /* Pods_UnitTestSwiftCourseMock.framework */,
+				B5E418EFE39539CB1DF989ED /* Pods_UnitTestSwiftCourseMock_UnitTestSwiftCourseMockUITests.framework */,
+				16144CDBE7FAEE87E1EC258C /* Pods_UnitTestSwiftCourseMockTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D72603422B15208A0018CE93 = {
+			isa = PBXGroup;
+			children = (
+				D726034D2B15208B0018CE93 /* UnitTestSwiftCourseMock */,
+				D72603642B15208F0018CE93 /* UnitTestSwiftCourseMockTests */,
+				D726036E2B15208F0018CE93 /* UnitTestSwiftCourseMockUITests */,
+				D726034C2B15208B0018CE93 /* Products */,
+				026795145F1CF9B2B0F744BE /* Pods */,
+				1C615EE26012C0AC7B04DBAF /* Frameworks */,
+				E2F5079F02B63D3D447A7A5F /* Generated Mocks */,
+			);
+			sourceTree = "<group>";
+		};
+		D726034C2B15208B0018CE93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D726034B2B15208B0018CE93 /* UnitTestSwiftCourseMock.app */,
+				D72603612B15208F0018CE93 /* UnitTestSwiftCourseMockTests.xctest */,
+				D726036B2B15208F0018CE93 /* UnitTestSwiftCourseMockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D726034D2B15208B0018CE93 /* UnitTestSwiftCourseMock */ = {
+			isa = PBXGroup;
+			children = (
+				D726037E2B1520960018CE93 /* Mock */,
+				D726034E2B15208B0018CE93 /* AppDelegate.swift */,
+				D72603502B15208B0018CE93 /* SceneDelegate.swift */,
+				D72603522B15208B0018CE93 /* ViewController.swift */,
+				D72603542B15208B0018CE93 /* Main.storyboard */,
+				D72603572B15208E0018CE93 /* Assets.xcassets */,
+				D72603592B15208E0018CE93 /* LaunchScreen.storyboard */,
+				D726035C2B15208E0018CE93 /* Info.plist */,
+			);
+			path = UnitTestSwiftCourseMock;
+			sourceTree = "<group>";
+		};
+		D72603642B15208F0018CE93 /* UnitTestSwiftCourseMockTests */ = {
+			isa = PBXGroup;
+			children = (
+				D72603812B1521240018CE93 /* Mock */,
+				D72603652B15208F0018CE93 /* UnitTestSwiftCourseMockTests.swift */,
+			);
+			path = UnitTestSwiftCourseMockTests;
+			sourceTree = "<group>";
+		};
+		D726036E2B15208F0018CE93 /* UnitTestSwiftCourseMockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D726036F2B15208F0018CE93 /* UnitTestSwiftCourseMockUITests.swift */,
+				D72603712B15208F0018CE93 /* UnitTestSwiftCourseMockUITestsLaunchTests.swift */,
+			);
+			path = UnitTestSwiftCourseMockUITests;
+			sourceTree = "<group>";
+		};
+		D726037E2B1520960018CE93 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				D726037F2B1520AB0018CE93 /* ValidNumber.swift */,
+				D72603842B1524980018CE93 /* Add.swift */,
+				D7CCCDCF2B1650A8003033D9 /* Print.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		D72603812B1521240018CE93 /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				D72603822B1521300018CE93 /* ValidNumberTest.swift */,
+				D72603862B1529B30018CE93 /* AddTest.swift */,
+			);
+			path = Mock;
+			sourceTree = "<group>";
+		};
+		E2F5079F02B63D3D447A7A5F /* Generated Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				8A075B53EBD3869E30DF13CB /* UnitTestSwiftCourseMockTests-UnitTestSwiftCourseMockMocks.generated.swift */,
+			);
+			name = "Generated Mocks";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D726034A2B15208B0018CE93 /* UnitTestSwiftCourseMock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72603752B15208F0018CE93 /* Build configuration list for PBXNativeTarget "UnitTestSwiftCourseMock" */;
+			buildPhases = (
+				AC930E66C232208D1E0FE0CF /* [CP] Check Pods Manifest.lock */,
+				D72603472B15208B0018CE93 /* Sources */,
+				D72603482B15208B0018CE93 /* Frameworks */,
+				D72603492B15208B0018CE93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnitTestSwiftCourseMock;
+			productName = UnitTestSwiftCourseMock;
+			productReference = D726034B2B15208B0018CE93 /* UnitTestSwiftCourseMock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D72603602B15208F0018CE93 /* UnitTestSwiftCourseMockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72603782B15208F0018CE93 /* Build configuration list for PBXNativeTarget "UnitTestSwiftCourseMockTests" */;
+			buildPhases = (
+				4E1A8C4865DF92E03A731167 /* [CP] Check Pods Manifest.lock */,
+				D984058BE45869E6BAAAC5A6 /* Generate Mockingbird Mocks */,
+				D726035D2B15208F0018CE93 /* Sources */,
+				D726035E2B15208F0018CE93 /* Frameworks */,
+				D726035F2B15208F0018CE93 /* Resources */,
+				5120F71F77FDB588C19391C5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D72603632B15208F0018CE93 /* PBXTargetDependency */,
+			);
+			name = UnitTestSwiftCourseMockTests;
+			productName = UnitTestSwiftCourseMockTests;
+			productReference = D72603612B15208F0018CE93 /* UnitTestSwiftCourseMockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D726036A2B15208F0018CE93 /* UnitTestSwiftCourseMockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D726037B2B15208F0018CE93 /* Build configuration list for PBXNativeTarget "UnitTestSwiftCourseMockUITests" */;
+			buildPhases = (
+				C70C89F57E33EAFD1912F3A0 /* [CP] Check Pods Manifest.lock */,
+				D72603672B15208F0018CE93 /* Sources */,
+				D72603682B15208F0018CE93 /* Frameworks */,
+				D72603692B15208F0018CE93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D726036D2B15208F0018CE93 /* PBXTargetDependency */,
+			);
+			name = UnitTestSwiftCourseMockUITests;
+			productName = UnitTestSwiftCourseMockUITests;
+			productReference = D726036B2B15208F0018CE93 /* UnitTestSwiftCourseMockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D72603432B15208A0018CE93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D726034A2B15208B0018CE93 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					D72603602B15208F0018CE93 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D726034A2B15208B0018CE93;
+					};
+					D726036A2B15208F0018CE93 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D726034A2B15208B0018CE93;
+					};
+				};
+			};
+			buildConfigurationList = D72603462B15208A0018CE93 /* Build configuration list for PBXProject "UnitTestSwiftCourseMock" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D72603422B15208A0018CE93;
+			productRefGroup = D726034C2B15208B0018CE93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D726034A2B15208B0018CE93 /* UnitTestSwiftCourseMock */,
+				D72603602B15208F0018CE93 /* UnitTestSwiftCourseMockTests */,
+				D726036A2B15208F0018CE93 /* UnitTestSwiftCourseMockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D72603492B15208B0018CE93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D726035B2B15208E0018CE93 /* LaunchScreen.storyboard in Resources */,
+				D72603582B15208E0018CE93 /* Assets.xcassets in Resources */,
+				D72603562B15208B0018CE93 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D726035F2B15208F0018CE93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72603692B15208F0018CE93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E1A8C4865DF92E03A731167 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnitTestSwiftCourseMockTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5120F71F77FDB588C19391C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnitTestSwiftCourseMockTests/Pods-UnitTestSwiftCourseMockTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnitTestSwiftCourseMockTests/Pods-UnitTestSwiftCourseMockTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnitTestSwiftCourseMockTests/Pods-UnitTestSwiftCourseMockTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC930E66C232208D1E0FE0CF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnitTestSwiftCourseMock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C70C89F57E33EAFD1912F3A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnitTestSwiftCourseMock-UnitTestSwiftCourseMockUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D984058BE45869E6BAAAC5A6 /* Generate Mockingbird Mocks */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate Mockingbird Mocks";
+			outputPaths = (
+				"$(SRCROOT)/MockingbirdMocks/UnitTestSwiftCourseMockTests-UnitTestSwiftCourseMockMocks.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -eu\n\n# Prevent Xcode 13 from running this script while indexing.\n[[ \"${ACTION}\" == \"indexbuild\" ]] && exit 0\n\n\"${SRCROOT}/Pods/MockingbirdFramework/mockingbird\" generate --targets \"UnitTestSwiftCourseMock\" --outputs \"${SRCROOT}/MockingbirdMocks/UnitTestSwiftCourseMockTests-UnitTestSwiftCourseMockMocks.generated.swift\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D72603472B15208B0018CE93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72603532B15208B0018CE93 /* ViewController.swift in Sources */,
+				D7CCCDD02B1650A8003033D9 /* Print.swift in Sources */,
+				D72603802B1520AB0018CE93 /* ValidNumber.swift in Sources */,
+				D726034F2B15208B0018CE93 /* AppDelegate.swift in Sources */,
+				D72603852B1524980018CE93 /* Add.swift in Sources */,
+				D72603512B15208B0018CE93 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D726035D2B15208F0018CE93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72603662B15208F0018CE93 /* UnitTestSwiftCourseMockTests.swift in Sources */,
+				D72603872B1529B30018CE93 /* AddTest.swift in Sources */,
+				D72603832B1521300018CE93 /* ValidNumberTest.swift in Sources */,
+				6E70274EB7FEE86EBD9B30EA /* UnitTestSwiftCourseMockTests-UnitTestSwiftCourseMockMocks.generated.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72603672B15208F0018CE93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72603702B15208F0018CE93 /* UnitTestSwiftCourseMockUITests.swift in Sources */,
+				D72603722B15208F0018CE93 /* UnitTestSwiftCourseMockUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D72603632B15208F0018CE93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D726034A2B15208B0018CE93 /* UnitTestSwiftCourseMock */;
+			targetProxy = D72603622B15208F0018CE93 /* PBXContainerItemProxy */;
+		};
+		D726036D2B15208F0018CE93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D726034A2B15208B0018CE93 /* UnitTestSwiftCourseMock */;
+			targetProxy = D726036C2B15208F0018CE93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D72603542B15208B0018CE93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D72603552B15208B0018CE93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D72603592B15208E0018CE93 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D726035A2B15208E0018CE93 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D72603732B15208F0018CE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D72603742B15208F0018CE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D72603762B15208F0018CE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EFC4509D63CCA4F4BE8FD8 /* Pods-UnitTestSwiftCourseMock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ5VNGA4KS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UnitTestSwiftCourseMock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JJ.Romero.UnitTestSwiftCourseMock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D72603772B15208F0018CE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 791E57D9197E0CFB021D0007 /* Pods-UnitTestSwiftCourseMock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ5VNGA4KS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UnitTestSwiftCourseMock/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JJ.Romero.UnitTestSwiftCourseMock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D72603792B15208F0018CE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E4B47C429327B18466F23C5 /* Pods-UnitTestSwiftCourseMockTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ5VNGA4KS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JJ.Romero.UnitTestSwiftCourseMockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestSwiftCourseMock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnitTestSwiftCourseMock";
+			};
+			name = Debug;
+		};
+		D726037A2B15208F0018CE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDF1800681FA679A007EA6E4 /* Pods-UnitTestSwiftCourseMockTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ5VNGA4KS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JJ.Romero.UnitTestSwiftCourseMockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnitTestSwiftCourseMock.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnitTestSwiftCourseMock";
+			};
+			name = Release;
+		};
+		D726037C2B15208F0018CE93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BFB2C8748F17E851C0B446C /* Pods-UnitTestSwiftCourseMock-UnitTestSwiftCourseMockUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ5VNGA4KS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JJ.Romero.UnitTestSwiftCourseMockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnitTestSwiftCourseMock;
+			};
+			name = Debug;
+		};
+		D726037D2B15208F0018CE93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DABB266266D566C49653C0F7 /* Pods-UnitTestSwiftCourseMock-UnitTestSwiftCourseMockUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AJ5VNGA4KS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = JJ.Romero.UnitTestSwiftCourseMockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnitTestSwiftCourseMock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D72603462B15208A0018CE93 /* Build configuration list for PBXProject "UnitTestSwiftCourseMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72603732B15208F0018CE93 /* Debug */,
+				D72603742B15208F0018CE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72603752B15208F0018CE93 /* Build configuration list for PBXNativeTarget "UnitTestSwiftCourseMock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72603762B15208F0018CE93 /* Debug */,
+				D72603772B15208F0018CE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72603782B15208F0018CE93 /* Build configuration list for PBXNativeTarget "UnitTestSwiftCourseMockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72603792B15208F0018CE93 /* Debug */,
+				D726037A2B15208F0018CE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D726037B2B15208F0018CE93 /* Build configuration list for PBXNativeTarget "UnitTestSwiftCourseMockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D726037C2B15208F0018CE93 /* Debug */,
+				D726037D2B15208F0018CE93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D72603432B15208A0018CE93 /* Project object */;
+}

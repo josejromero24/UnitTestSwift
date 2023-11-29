@@ -1,0 +1,6 @@
+framework module Pods_UnitTestSwiftCourseMock {
+  umbrella header "Pods-UnitTestSwiftCourseMock-umbrella.h"
+
+  export *
+  module * { export * }
+}
